@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Lista de Productos</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="pagina1.html">Página 1</a></li>
+          <li><a href="pagina2.html">Página 2</a></li>
+          <li><a href="pagina3.html">Página 3</a></li>
+        </ul>
+      </nav>
+      <div class="buscador-container">
+        <div class="buscador-box">
+          <input type="text" id="buscador" placeholder="Buscar producto...">
+          <button id="boton-buscar">Buscar</button>
+        </div>
+      </div>
+    </header>
+    
+    <main>
+      <section id="productos-container">
+        <!-- Aquí se cargarán los productos dinámicamente -->
+      </section>
+
+      <div id="paginacion">
+        <!-- Aquí irán los botones de paginación -->
+      </div>
+    </main>
+    
+    <section id="detalles-producto" class="oculto">
+      <!-- Aquí se mostrarán los detalles del producto seleccionado -->
+    </section>
+
+    <footer>
+      <p>&copy; 2025 - Mi Página Web</p>
+    </footer>
+
+    <script src="script1.js"></script> <!-- Enlaza el script que maneja la API -->
+  </body>
+</html>
